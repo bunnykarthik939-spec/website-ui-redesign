@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ridge & Row — Bicycle Repair & Rides</title>
+<meta name="description" content="Neighborhood bicycle repair shop. Tune-ups, custom builds, fittings, and weekly group rides.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Karla:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="34" height="34">
+          <circle cx="20" cy="20" r="17" fill="none" stroke="currentColor" stroke-width="3"/>
+          <circle cx="20" cy="20" r="3" fill="currentColor"/>
+          <line x1="20" y1="20" x2="20" y2="4" stroke="currentColor" stroke-width="2"/>
+          <line x1="20" y1="20" x2="32" y2="27" stroke="currentColor" stroke-width="2"/>
+          <line x1="20" y1="20" x2="8" y2="27" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </span>
+      <span class="logo-text">RIDGE &amp; ROW</span>
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#rides">Group Rides</a>
+      <a href="#visit">Visit</a>
+    </nav>
+
+    <a href="#visit" class="btn btn-primary header-cta">Book a tune-up</a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <svg class="hero-wheel" viewBox="0 0 600 600" aria-hidden="true">
+      <circle cx="300" cy="300" r="230" fill="none" stroke="currentColor" stroke-width="2"/>
+      <circle cx="300" cy="300" r="6" fill="currentColor"/>
+      <g stroke="currentColor" stroke-width="1.5">
+        <line x1="300" y1="300" x2="300" y2="70"/>
+        <line x1="300" y1="300" x2="459" y2="141"/>
+        <line x1="300" y1="300" x2="530" y2="300"/>
+        <line x1="300" y1="300" x2="459" y2="459"/>
+        <line x1="300" y1="300" x2="300" y2="530"/>
+        <line x1="300" y1="300" x2="141" y2="459"/>
+        <line x1="300" y1="300" x2="70" y2="300"/>
+        <line x1="300" y1="300" x2="141" y2="141"/>
+      </g>
+    </svg>
+
+    <div class="wrap hero-inner">
+      <p class="eyebrow">Est. 2011 · Neighborhood repair shop</p>
+      <h1>Your bike, tuned by<br>people who ride it too.</h1>
+      <p class="hero-sub">We true wheels, bleed brakes, and build custom rigs a few blocks
+        from the river trail — and we still take every bike out for a lap before it goes home.</p>
+      <div class="hero-actions">
+        <a href="#visit" class="btn btn-primary">Book a tune-up</a>
+        <a href="#services" class="btn btn-ghost">See what we fix</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">01 — Services</p>
+        <h2>What we work on</h2>
+      </div>
+
+      <div class="ticket-grid">
+
+        <article class="ticket">
+          <div class="ticket-top">
+            <span class="ticket-code">TU-01</span>
+            <span class="ticket-hole" aria-hidden="true"></span>
+          </div>
+          <h3>Tune-Ups</h3>
+          <p>Gears indexed, brakes adjusted, chain checked, bolts torqued. Same-day if you drop off before 11am.</p>
+          <span class="ticket-spec">~45 min</span>
+        </article>
+
+        <article class="ticket">
+          <div class="ticket-top">
+            <span class="ticket-code">CB-02</span>
+            <span class="ticket-hole" aria-hidden="true"></span>
+          </div>
+          <h3>Custom Builds</h3>
+          <p>Pick a frame, we spec the rest — groupset, wheels, geometry fit to how and where you actually ride.</p>
+          <span class="ticket-spec">2–3 weeks</span>
+        </article>
+
+        <article class="ticket">
+          <div class="ticket-top">
+            <span class="ticket-code">FR-03</span>
+            <span class="ticket-hole" aria-hidden="true"></span>
+          </div>
+          <h3>Flats &amp; Repairs</h3>
+          <p>Punctures, snapped spokes, worn brake pads — walk-ins welcome, most fixes done while you wait.</p>
+          <span class="ticket-spec">~20 min</span>
+        </article>
+
+        <article class="ticket">
+          <div class="ticket-top">
+            <span class="ticket-code">FT-04</span>
+            <span class="ticket-hole" aria-hidden="true"></span>
+          </div>
+          <h3>Fittings</h3>
+          <p>Saddle height, reach, cleat position — a proper fit so nothing aches after mile thirty.</p>
+          <span class="ticket-spec">~1 hr</span>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section section-alt" id="process">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">02 — Process</p>
+        <h2>How a repair works here</h2>
+      </div>
+
+      <ol class="process-list">
+        <li>
+          <span class="process-num">01</span>
+          <div>
+            <h3>Drop off</h3>
+            <p>Tell us what feels off, or nothing at all — we do a full 12-point check either way.</p>
+          </div>
+        </li>
+        <li>
+          <span class="process-num">02</span>
+          <div>
+            <h3>Diagnose</h3>
+            <p>We call before doing anything beyond the original ask. No surprise charges at pickup.</p>
+          </div>
+        </li>
+        <li>
+          <span class="process-num">03</span>
+          <div>
+            <h3>Repair</h3>
+            <p>Your mechanic works the whole ticket start to finish — one hand on it, not three.</p>
+          </div>
+        </li>
+        <li>
+          <span class="process-num">04</span>
+          <div>
+            <h3>Ride</h3>
+            <p>Every bike gets a lap around the block before it's handed back. If it's not right, it stays.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- GROUP RIDES -->
+  <section class="section" id="rides">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">03 — Group Rides</p>
+        <h2>Ride with the shop</h2>
+      </div>
+
+      <table class="route-log">
+        <thead>
+          <tr>
+            <th>Ride</th>
+            <th>Day</th>
+            <th>Distance</th>
+            <th>Pace</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>River Loop</td>
+            <td>Tuesday, 6:30pm</td>
+            <td>14 mi</td>
+            <td>Easy</td>
+          </tr>
+          <tr>
+            <td>Ridge Climb</td>
+            <td>Saturday, 8:00am</td>
+            <td>28 mi</td>
+            <td>Moderate</td>
+          </tr>
+          <tr>
+            <td>Coffee Cruise</td>
+            <td>Sunday, 9:00am</td>
+            <td>8 mi</td>
+            <td>Casual</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="route-note">All rides leave from the shop door. No drop policy — we wait at every turn.</p>
+    </div>
+  </section>
+
+  <!-- VISIT -->
+  <section class="section section-alt visit" id="visit">
+    <div class="wrap visit-grid">
+      <div>
+        <p class="eyebrow">04 — Visit</p>
+        <h2>Stop by the shop</h2>
+        <dl class="visit-details">
+          <div>
+            <dt>Address</dt>
+            <dd>412 Millrace Lane, near the river trail</dd>
+          </div>
+          <div>
+            <dt>Hours</dt>
+            <dd>Tue–Sat 9am–6pm, Sun 10am–3pm, closed Mon</dd>
+          </div>
+          <div>
+            <dt>Phone</dt>
+            <dd>(555) 019-2244</dd>
+          </div>
+        </dl>
+      </div>
+
+      <form class="ticket-form" novalidate>
+        <h3>Book a tune-up</h3>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required>
+
+        <label for="bike">What kind of bike?</label>
+        <input id="bike" name="bike" type="text" placeholder="e.g. steel road bike">
+
+        <label for="notes">What feels off?</label>
+        <textarea id="notes" name="notes" rows="3" placeholder="Squeaky brakes, slipping gears..."></textarea>
+
+        <button type="submit" class="btn btn-primary">Request a slot</button>
+        <p class="form-note">This form is a static demo — no data is sent anywhere.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span class="logo-text">RIDGE &amp; ROW</span>
+    <p>&copy; 2026 Ridge &amp; Row Bicycle Shop. Built with care, a few blocks from the river trail.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
